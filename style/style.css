@@ -1,0 +1,972 @@
+
+
+
+.nav{
+    color: white;
+    margin-left: 15%;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3%;
+  
+ 
+}
+
+.logoSection{
+    display: flex;
+    align-items: center;
+}
+.logoTitle{
+    color: rgb(226, 11, 226);
+    font-size: 500%;
+    font-weight: bolder;
+}
+.logoTitle2{
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+.navSectors {
+    width: 50%;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    
+}
+.navSectors a{
+    text-decoration: none;
+    color: black;
+}
+.navSectors a:hover{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.navFollowBtn {
+    padding: 18px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+.navFollowBtnIconY {
+    color: red;
+    margin: 0px 16px 0px 24px;
+    font-size: 1.2rem;
+
+}
+.navFollowBtnIconT {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.partOne {
+    display: flex;
+    
+}
+
+.partOnetitles {
+
+    width: 701px;
+    height: 600px;
+    justify-content: right;
+}
+
+.partOneContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+
+.playlikethe {
+    margin-top: 40px;
+    color: #0B0223;
+    padding-left: 25%;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+.GOATTitle {
+    
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 800;
+    background-image: linear-gradient(90deg, #fc0495, #6f0af3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 25%;
+   
+
+}
+
+.smallSection {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: left;
+    text-align: left; */
+    padding-left: 25%;
+}
+
+.smallText {
+    color: #5e4e81;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+
+}
+.fa-solid{
+    color: #F948B2;
+    margin-right: 10px;
+}
+
+.partOneBtn {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+   
+ 
+}
+
+.signIn {
+    color: #FFF;
+    background-color: #FF42A5;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 50px;
+    border-radius: 60px;
+   
+}
+
+.goRogue {
+    color: #FFF;
+    background-color: #42b3ff;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 50px;
+    border-radius: 60px;
+
+}
+
+.imgcontainer{
+    width: 50%;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.onlineGameSection {
+    max-width: 1640px;
+    margin: 0 auto 120px;
+}
+
+.onlineGameTitle {
+    text-align: center;
+}
+
+.onlinegame2ndtitle {
+    background-image: linear-gradient(90deg, #f5007e 0%, #9303f3 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.onlineGameContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    padding: 0px 100px 0px 70px;
+}
+
+.onlineGameTitle h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.onlineGameTitle p {
+
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.gameCard img {
+    width: 100%;
+    height: 100%;
+}
+
+.gameCard {
+    width: 330px;
+
+}
+
+
+.gameCard {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 5%;
+    visibility: hidden;
+    color: #f5007e;
+
+}
+
+.gameCard:hover .overlay {
+    visibility: visible;
+
+}
+
+.icon {
+
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.gameCard p {
+    color:#5e4e81;
+    font-size: 1.1rem;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hover-title {
+    color: #ff00bf !important; 
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+.playGameContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.gameTexts {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.gametitle {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gameDiscription {
+    color:#5e4e81;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gameImg {
+    width: 50%;
+    position: relative;
+    margin-right: 70px;
+}
+
+.gameImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.downImg {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: -10%;
+    left: 70%;
+}
+
+.downImg img {
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* four */
+
+
+
+.gameCatagoriesBtn {
+    
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.catagoriesGame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background: white;
+    padding: 10px;
+    gap: 1px;
+    color:#5e4e81;
+    font-size:18px;
+    font-weight: 800;
+    border: none;
+}
+
+.catagoriesGame:hover {
+    /* background-image: linear-gradient(to bottom, #FF42A5 0%, #FF42A5 100%); */
+    /* color: transparent;
+    -webkit-background-clip: text; */
+    color: #F948B2;
+    border: 2px solid #F948B2;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #120338;
+    padding: 100px 20px;
+}
+
+.footerOImageIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.footerOImageIcon p {
+    font-size:  22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footerList{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+
+
+.listOne {
+    display: flex;
+    gap: 60px;
+}
+
+.listTwo{
+    display: flex;
+    gap: 60px;
+}
+
+.footerList li {
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.footerIcons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    gap: 40px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.iconsOne {
+    display: flex;
+    gap: 40px;
+}
+.iconsOne a {
+    text-decoration: none;
+    color: white;
+}
+
+.iconsTwo {
+    display: flex;
+    gap: 40px;
+}
+.iconsTwo a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footerPrivacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 28px;
+}
+
+.privacyOne {
+    display: flex;
+    gap: 60px;
+}
+
+.privacyTwo {
+    display: flex;
+    gap: 60px;
+}
+
+.footerPrivacy li {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.copyRight {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+.logoTitleF {
+    color: rgb(243, 0, 142);
+    font-size: 500%;
+    font-weight: bolder;
+}
+.logoTitle3{
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+
+
+.facebookIcon{
+    background-image: linear-gradient(90deg, #0478fc, #0a2df3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.youtubeIcon{
+    background-image: linear-gradient(90deg, #fc3604, #f30a0a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* 
+mobile responsive */
+@media screen and (max-width: 576px) {
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden !important;
+        
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .navContainer{
+    
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .navSectors{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            
+        }
+        .navFollowBtn{
+            display: flex;
+            font-size: 10px;
+           
+        }
+        
+    
+        .logoSection {
+           
+            text-align: center; 
+        }
+    
+        .logoSection img {
+            max-width: 20%; 
+        }
+    
+        .logoTitle {
+            font-size: 34px; 
+        }
+
+    
+        .logoTitle2 {
+            font-size: 26px; 
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .partOne {
+            flex-direction: column-reverse;
+            
+        }
+    
+        .imgcontainer {
+            width: 80%;
+            margin: 0 auto 24px;
+    
+        }
+    
+        .partOneContainer {
+            width: 90%;
+            margin: 5%;
+           
+        }
+        .playlikethe{
+            font-size: 20px;
+        }
+        .GOATTitle{
+            font-size: 50px;
+        }
+        .smallText{
+            font-size: 18px;
+        }
+        .signIn{
+            color: #FFF;
+            background-color: #FF42A5;
+            border: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 15px 40px;
+            border-radius: 60px;
+           
+        }
+        .goRogue {
+            color: #FFF;
+            background-color: #42b3ff;
+            border: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 15px 40px;
+            border-radius: 60px;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .playGameContainer {
+            flex-direction: column-reverse;
+          padding-top: 25%;
+         
+    
+        }
+      .gameTexts{
+       text-align: center;
+       margin-left: auto;
+       display: flex;
+       margin: 10%;
+       justify-content: flex-start;
+       margin-left: 15%;
+       margin-top: 40%;
+        }
+    
+        .game-content {
+            margin-top: 10px;
+        }
+    
+        .downImg {
+            width: 150px;
+            height: 150px;
+        }
+    
+        .gameImg {
+            width: 70%;
+            margin: 75px auto 0;
+        }
+    
+       
+        .gameTexts{
+            align-items: center;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+        .onlineGameContainer {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5%;
+            margin-top: 48px;
+            padding: 0px 100px 0px 70px;
+        }
+        .gameCard {
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+           
+        }
+        .gameCard p {
+            font-size: 20px;
+            
+        }
+        .onlineGameTitle h3 {
+            font-size: 3rem;
+        }
+    
+        .onlineGameTitle p {
+            font-size: 1rem;
+          
+        }
+    
+    
+    
+    
+    
+    
+    
+        
+        .gameCatagoriesBtn {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+        .catagoriesGame {
+            font-size: 0.5rem;
+            padding: 3px;
+            gap: 5px;
+        }
+    
+        /* game play style starts */
+    
+        .footerList,
+        .footerIcons,
+        .footerPrivacy {
+            flex-direction: column;
+        }
+        .logoTitleF{
+            font-size: 40px;
+            color: #FF42A5;
+        }
+        .logoTitle3{
+            font-size:40PX ;
+        }
+    
+    }
+
+
+    /* tablet responsive */
+    @media screen and (max-width: 768px) {
+        .navContainer {
+            display: flex;
+            /* justify-content: space-between; */
+            flex-direction: column;
+        }
+        
+    
+    
+    
+    
+    
+        .partOne {
+            display: flex;
+            /* flex-direction: column-reverse;
+            align-items: center;
+            text-align: center; */
+            width:100%;
+        }
+        .imgcontainer  img{
+            margin-top: 20%;
+            max-width: 100%;
+            height: auto;
+           
+        }
+        .playGameContainer{
+            width: fit-content;
+        }
+        .partOnetitles {
+            padding: 10px;
+        }
+        .smallText {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+    
+    
+    
+    
+        .onlineGameContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 24px;
+            margin-top: 48px;
+            padding: 0px 100px 0px 70px;
+            margin-left: 5%;
+        }
+    
+    
+        .onlineGameTitle {
+            text-align: center;
+        }
+    
+        .onlineGameTitle h3 {
+            font-size: 20px;
+        }
+    
+        .onlineGameTitle p {
+            font-size: 14px;
+        }
+    
+        .gameCard {
+            width: 100%; 
+            margin-bottom: 20px;
+        }
+    
+        .gameCard img {
+            width: 100%; 
+        }
+    
+    
+    
+    
+    
+    
+        .playGameContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+      .gameImg {
+            margin-bottom: 20px;
+        }
+    
+        .gameImg img {
+            width: 100%; 
+        }
+    
+        .downImg img {
+            margin-top: 60%;
+            margin-left: -30%;
+            width: 200px;
+            height: 200px;
+        }
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            .gameCategoriesBtn {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .categoryGame {
+                width: 45%;
+                margin: 10px;
+                text-align: center;
+            }
+        
+            .categoryGame img {
+                max-width: 80px; 
+                display: block;
+                margin: 0 auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+            .footerContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+              
+            }
+        
+            .footerLogo p {
+                font-size: 18px; 
+            }
+        
+            .footerLists {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+        
+            .footerLists .listOne,
+            .footerLists .listTwo {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .footerIcons .iconsOne,
+            .footerIcons .iconsTwo {
+                margin-top: 20px;
+            }
+        
+            .footerPrivacy {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+        
+            .footerPrivacy .privacyOne,
+            .footerPrivacy .privacyTwo {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+    
+    }
