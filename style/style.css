@@ -563,14 +563,7 @@ mobile responsive */
        
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
         .navContainer{
     
@@ -609,15 +602,6 @@ mobile responsive */
         .logoTitle2 {
             font-size: 26px; 
         }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
         .partOne {
@@ -667,15 +651,7 @@ mobile responsive */
             border-radius: 60px;
         }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
         .playGameContainer {
             flex-direction: column-reverse;
           padding-top: 25%;
@@ -709,8 +685,7 @@ mobile responsive */
        
         .gameTexts{
             align-items: center;
-            width: 80%;
-            margin: 75px auto 0;
+          
           
         }
 
@@ -756,7 +731,7 @@ mobile responsive */
         .catagoriesGame {
             font-size: 0.5rem;
             padding: 3px;
-            gap: 5px;
+            gap: 3px;
         }
     
         /* game play style starts */
@@ -785,10 +760,7 @@ mobile responsive */
             flex-direction: column;
         }
         
-    
-    
-    
-    
+
     
         .partOne {
             display: flex;
@@ -874,17 +846,10 @@ mobile responsive */
             width: 200px;
             height: 200px;
         }
-    
-     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        .gameTexts{
+            padding: 0;
+        }
+ 
             .gameCategoriesBtn {
                 display: flex;
                 flex-wrap: wrap;
@@ -908,7 +873,16 @@ mobile responsive */
     
     
     
-    
+            .gameCatagoriesBtn {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        
+            .catagoriesGame {
+                font-size: 0.5rem;
+                padding: 3px;
+                gap: 3px;
+            }
     
     
     
